@@ -15,6 +15,11 @@
 		99A3E55525D01D6300B989F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E55325D01D6300B989F5 /* LaunchScreen.storyboard */; };
 		99A3E56025D01D6300B989F5 /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E55F25D01D6300B989F5 /* StampTests.swift */; };
 		99A3E56B25D01D6300B989F5 /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E56A25D01D6300B989F5 /* StampUITests.swift */; };
+		99A3E57F25D01DBD00B989F5 /* SushiIkura.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E57B25D01DBD00B989F5 /* SushiIkura.png */; };
+		99A3E58025D01DBD00B989F5 /* SushiMaguro.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E57C25D01DBD00B989F5 /* SushiMaguro.png */; };
+		99A3E58125D01DBD00B989F5 /* SushiEbi.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E57D25D01DBD00B989F5 /* SushiEbi.png */; };
+		99A3E58225D01DBD00B989F5 /* SushiTamago.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E57E25D01DBD00B989F5 /* SushiTamago.png */; };
+		99A3E58A25D01FE800B989F5 /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E58925D01FE800B989F5 /* BackGround.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		99A3E56625D01D6300B989F5 /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A3E56A25D01D6300B989F5 /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		99A3E56C25D01D6300B989F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A3E57B25D01DBD00B989F5 /* SushiIkura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SushiIkura.png; path = ../../../../../../MyFreeSozai/SushiIkura.png; sourceTree = "<group>"; };
+		99A3E57C25D01DBD00B989F5 /* SushiMaguro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SushiMaguro.png; path = ../../../../../../MyFreeSozai/SushiMaguro.png; sourceTree = "<group>"; };
+		99A3E57D25D01DBD00B989F5 /* SushiEbi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SushiEbi.png; path = ../../../../../../MyFreeSozai/SushiEbi.png; sourceTree = "<group>"; };
+		99A3E57E25D01DBD00B989F5 /* SushiTamago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SushiTamago.png; path = ../../../../../../MyFreeSozai/SushiTamago.png; sourceTree = "<group>"; };
+		99A3E58925D01FE800B989F5 /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackGround.png; path = ../../../../Hackason/SPAJAM2020/BackGround.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 				99A3E54E25D01D6000B989F5 /* Main.storyboard */,
 				99A3E55125D01D6300B989F5 /* Assets.xcassets */,
 				99A3E55325D01D6300B989F5 /* LaunchScreen.storyboard */,
+				99A3E58925D01FE800B989F5 /* BackGround.png */,
+				99A3E57B25D01DBD00B989F5 /* SushiIkura.png */,
+				99A3E57D25D01DBD00B989F5 /* SushiEbi.png */,
+				99A3E57E25D01DBD00B989F5 /* SushiTamago.png */,
+				99A3E57C25D01DBD00B989F5 /* SushiMaguro.png */,
 				99A3E55625D01D6300B989F5 /* Info.plist */,
 			);
 			path = Stamp;
@@ -232,8 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99A3E55525D01D6300B989F5 /* LaunchScreen.storyboard in Resources */,
+				99A3E58225D01DBD00B989F5 /* SushiTamago.png in Resources */,
 				99A3E55225D01D6300B989F5 /* Assets.xcassets in Resources */,
+				99A3E58A25D01FE800B989F5 /* BackGround.png in Resources */,
 				99A3E55025D01D6000B989F5 /* Main.storyboard in Resources */,
+				99A3E58025D01DBD00B989F5 /* SushiMaguro.png in Resources */,
+				99A3E58125D01DBD00B989F5 /* SushiEbi.png in Resources */,
+				99A3E57F25D01DBD00B989F5 /* SushiIkura.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
